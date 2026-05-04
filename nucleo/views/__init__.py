@@ -4,6 +4,7 @@ from django.views.generic import FormView
 from ..algoritmos import ALGORITMOS_CHOICES
 from ..forms.planejador import PlanejadorForm
 from ..models import City
+from .city_list_view import CityListView
 
 
 class PlanFormView(FormView):

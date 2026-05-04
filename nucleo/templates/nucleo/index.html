@@ -6,6 +6,9 @@
 <div class="card shadow-sm mb-4">
     <div class="card-body">
         {% include "base/widgets/forms.html" with form=form submit_button_content="Gerar Rota Otimizada"%}
+        <a href="{% url 'city_list' %}" class="btn btn-outline-secondary w-100 mt-2">
+            Ver cidades e importâncias
+        </a>
     </div>
 </div>
 

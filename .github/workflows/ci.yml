@@ -32,9 +32,12 @@ jobs:
 
       - name: Get coverage
         id: coverage_comment
+        env:
+          ACTIONS_STEP_DEBUG: true
         uses: py-cov-action/python-coverage-comment-action@v4.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERBOSE: true
 
       - name: Store Pull Request comment to be posted
         uses: actions/upload-artifact@v7.0.1

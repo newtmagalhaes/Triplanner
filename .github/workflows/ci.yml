@@ -34,10 +34,9 @@ jobs:
         id: coverage_comment
         env:
           ACTIONS_STEP_DEBUG: true
-        uses: py-cov-action/python-coverage-comment-action@v4.1
+        uses: py-cov-action/python-coverage-comment-action@v3
         with:
           GITHUB_TOKEN: ${{ github.token }}
-          COVERAGE_PATH: .coverage
 
       - name: Store Pull Request comment to be posted
         uses: actions/upload-artifact@v7.0.1

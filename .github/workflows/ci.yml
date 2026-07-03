@@ -28,7 +28,7 @@ jobs:
         run: pip install --requirement requirements.txt --no-cache-dir --disable-pip-version-check
 
       - name: Run tests
-        run: pytest --cov
+        run: pytest --cov .
 
       - name: Get coverage
         id: coverage_comment
@@ -37,7 +37,6 @@ jobs:
         uses: py-cov-action/python-coverage-comment-action@v3
         with:
           GITHUB_TOKEN: ${{ github.token }}
-          ACTIVITY: "${{ (github.event_name == 'push' && github.ref_name == 'main') && 'save_coverage_data_files' || 'process_pr' }}"
 
       - name: Store Pull Request comment to be posted
         uses: actions/upload-artifact@v7.0.1

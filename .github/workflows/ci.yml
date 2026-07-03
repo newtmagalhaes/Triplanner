@@ -35,7 +35,6 @@ jobs:
         uses: py-cov-action/python-coverage-comment-action@v4.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACTIVITY: "${{ github.event_name == 'push' && 'save_coverage_data_files' || 'process_pr' }}"
 
       - name: Store Pull Request comment to be posted
         uses: actions/upload-artifact@v7.0.1

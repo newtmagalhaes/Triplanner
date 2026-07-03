@@ -1,5 +1,7 @@
 # Planejador de Viagem Multicritério ✈️
 
+![coverage badge](https://raw.githubusercontent.com/newtmagalhaes/Triplanner/python-coverage-comment-action-data/badge.svg)
+
 Este projeto é um protótipo de sistema para planejamento de viagens otimizadas. A aplicação modela cidades como um grafo e utiliza uma busca heurística para maximizar a satisfação do turista, respeitando restrições de orçamento financeiro e tempo de viagem.
 
 ## 🛠️ Tecnologias Utilizadas
@@ -7,6 +9,7 @@ Este projeto é um protótipo de sistema para planejamento de viagens otimizadas
 * **Backend/Algoritmo:** [Python 3.14](https://www.python.org/downloads/)
 * **Framework Web:** [Django](https://docs.djangoproject.com/pt-br/6.0/) + [django_bootstrap](https://django-bootstrap5.readthedocs.io/en/latest/)
 * **Testes:** [Pytest](https://docs.pytest.org/en/9.0.x/)
+* **Coverage:** [Coverage](https://github.com/newtmagalhaes/Triplanner/tree/python-coverage-comment-action-data)
 * **Frontend:** HTML5 e [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 ## 🚀 Como executar o projeto localmente

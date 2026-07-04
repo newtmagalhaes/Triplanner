@@ -28,7 +28,7 @@ jobs:
         run: pip install --requirement requirements.txt --no-cache-dir --disable-pip-version-check
 
       - name: Run tests
-        run: pytest --cov
+        run: CI=True pytest --cov
 
       - name: Get coverage
         id: coverage_comment

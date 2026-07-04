@@ -2,30 +2,30 @@
 
 [Full report](https://htmlpreview.github.io/?https://github.com/newtmagalhaes/Triplanner/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
-| Name                                      |    Stmts |     Miss |   Branch |   BrPart |  Cover |   Missing |
-|------------------------------------------ | -------: | -------: | -------: | -------: | -----: | --------: |
-| nucleo/\_\_init\_\_.py                    |        0 |        0 |        0 |        0 |   100% |           |
-| nucleo/admin.py                           |       20 |       20 |        0 |        0 |     0% |      3-32 |
-| nucleo/algoritmos/\_\_init\_\_.py         |        3 |        3 |        0 |        0 |     0% |       2-5 |
-| nucleo/algoritmos/guloso.py               |       45 |       45 |       10 |        0 |     0% |      1-70 |
-| nucleo/algoritmos/interfaces.py           |       29 |       29 |       18 |        0 |     0% |      1-56 |
-| nucleo/apps.py                            |        3 |        3 |        0 |        0 |     0% |       1-5 |
-| nucleo/forms/\_\_init\_\_.py              |        0 |        0 |        0 |        0 |   100% |           |
-| nucleo/forms/pesos\_algoritmo.py          |        8 |        8 |        0 |        0 |     0% |      1-19 |
-| nucleo/forms/planejador.py                |       10 |       10 |        0 |        0 |     0% |      1-27 |
-| nucleo/forms/planos\_e\_pesos.py          |        4 |        4 |        0 |        0 |     0% |       1-6 |
-| nucleo/models/\_\_init\_\_.py             |       25 |       25 |        0 |        0 |     0% |      2-63 |
-| nucleo/models/mixins.py                   |       25 |       25 |        0 |        0 |     0% |      1-35 |
-| nucleo/urls.py                            |        3 |        3 |        0 |        0 |     0% |       1-5 |
-| nucleo/views/\_\_init\_\_.py              |       21 |       21 |        0 |        0 |     0% |      1-27 |
-| nucleo/views/city\_list\_view.py          |       11 |       11 |        0 |        0 |     0% |      1-14 |
-| nucleo/views/plan\_with\_weights\_view.py |       20 |       20 |        0 |        0 |     0% |      1-27 |
-| triplanner/\_\_init\_\_.py                |        0 |        0 |        0 |        0 |   100% |           |
-| triplanner/asgi.py                        |        4 |        4 |        0 |        0 |     0% |     10-16 |
-| triplanner/settings.py                    |       20 |       20 |        0 |        0 |     0% |    13-133 |
-| triplanner/urls.py                        |        3 |        3 |        0 |        0 |     0% |     17-20 |
-| triplanner/wsgi.py                        |        4 |        4 |        0 |        0 |     0% |     10-16 |
-| **TOTAL**                                 |  **258** |  **258** |   **28** |    **0** | **0%** |           |
+| Name                                      |    Stmts |     Miss |  Cover |   Missing |
+|------------------------------------------ | -------: | -------: | -----: | --------: |
+| nucleo/\_\_init\_\_.py                    |        0 |        0 |   100% |           |
+| nucleo/admin.py                           |       20 |       20 |     0% |      3-32 |
+| nucleo/algoritmos/\_\_init\_\_.py         |        3 |        3 |     0% |       2-5 |
+| nucleo/algoritmos/guloso.py               |       45 |       45 |     0% |      1-70 |
+| nucleo/algoritmos/interfaces.py           |       29 |       29 |     0% |      1-56 |
+| nucleo/apps.py                            |        3 |        3 |     0% |       1-5 |
+| nucleo/forms/\_\_init\_\_.py              |        0 |        0 |   100% |           |
+| nucleo/forms/pesos\_algoritmo.py          |        8 |        8 |     0% |      1-19 |
+| nucleo/forms/planejador.py                |       10 |       10 |     0% |      1-27 |
+| nucleo/forms/planos\_e\_pesos.py          |        4 |        4 |     0% |       1-6 |
+| nucleo/models/\_\_init\_\_.py             |       25 |       25 |     0% |      2-63 |
+| nucleo/models/mixins.py                   |       25 |       25 |     0% |      1-35 |
+| nucleo/urls.py                            |        3 |        3 |     0% |       1-5 |
+| nucleo/views/\_\_init\_\_.py              |       21 |       21 |     0% |      1-27 |
+| nucleo/views/city\_list\_view.py          |       11 |       11 |     0% |      1-14 |
+| nucleo/views/plan\_with\_weights\_view.py |       20 |       20 |     0% |      1-27 |
+| triplanner/\_\_init\_\_.py                |        0 |        0 |   100% |           |
+| triplanner/asgi.py                        |        4 |        4 |     0% |     10-16 |
+| triplanner/settings.py                    |       20 |       20 |     0% |    13-133 |
+| triplanner/urls.py                        |        3 |        3 |     0% |     17-20 |
+| triplanner/wsgi.py                        |        4 |        4 |     0% |     10-16 |
+| **TOTAL**                                 |  **258** |  **258** | **0%** |           |
 
 
 ## Setup coverage badge
